@@ -1,5 +1,5 @@
 import { toast } from "sonner";
-import { AlertOctagon, Copy, RefreshCw, Shield, Trash2 } from "lucide-react";
+import { OctagonAlert as AlertOctagon, Copy, RefreshCw, Shield, Trash2 } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
