@@ -223,6 +223,7 @@ export const DashboardSecureNotesSection = ({
                             onClick={() => deleteSecureNote(note.id)}
                           >
                             {deletingSecureNoteId === note.id ? <RefreshCw className="h-4 w-4 animate-spin" /> : <><Trash2 className="mr-2 h-4 w-4" /> Elimina</>}
+                            }
                           </Button>
                         </div>
                       </div>

@@ -177,6 +177,7 @@ export const RegisterPage = ({ onLogin }) => {
 
             <Button type="submit" disabled={loading || !canSubmit} className="btn-teal h-14 w-full text-base">
               {loading ? <RefreshCw className="h-5 w-5 animate-spin" /> : <span>Crea account e vai in dashboard</span>}
+              }
             </Button>
           </form>
 

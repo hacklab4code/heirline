@@ -1,15 +1,4 @@
-import {
-  Activity,
-  AlertTriangle,
-  BarChart3,
-  CreditCard,
-  FileDown,
-  Phone,
-  RefreshCw,
-  Search,
-  ShieldAlert,
-  UserRound,
-} from "lucide-react";
+import { Activity, TriangleAlert as AlertTriangle, ChartBar as BarChart3, CreditCard, FileDown, Phone, RefreshCw, Search, ShieldAlert, UserRound } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";

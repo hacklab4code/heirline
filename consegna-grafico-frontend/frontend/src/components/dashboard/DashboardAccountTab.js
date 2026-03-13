@@ -1,16 +1,5 @@
 import { toast } from "sonner";
-import {
-  Bell,
-  Copy,
-  Fingerprint,
-  LogOut,
-  Mail,
-  RefreshCw,
-  ShieldCheck,
-  Smartphone,
-  Trash2,
-  UserRound,
-} from "lucide-react";
+import { Bell, Copy, FingerprintPattern as Fingerprint, LogOut, Mail, RefreshCw, ShieldCheck, Smartphone, Trash2, UserRound } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -322,6 +311,7 @@ export const DashboardAccountTab = ({ section }) => {
                             onClick={() => handleDeletePasskey(passkey.id)}
                           >
                             {deletingPasskeyId === passkey.id ? <RefreshCw className="h-4 w-4 animate-spin" /> : <><Trash2 className="mr-2 h-4 w-4" />Revoca</>}
+                            }
                           </Button>
                         </div>
                       ))
@@ -363,6 +353,7 @@ export const DashboardAccountTab = ({ section }) => {
                 </p>
               </div>
               {pushError ? <p className="text-sm text-danger">{pushError}</p> : null}
+              }
               <div className="flex flex-wrap gap-3">
                 {!pushSupported ? null : pushSubscribed ? (
                   <Button onClick={handlePushUnsubscribe} disabled={pushLoading} variant="outline" className="border-danger/40 text-danger hover:bg-danger/10">
