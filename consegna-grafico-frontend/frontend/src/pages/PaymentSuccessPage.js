@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useLocation, useNavigate, useSearchParams } from "react-router-dom";
 import { motion } from "motion/react";
-import { AlertTriangle, CheckCircle, CreditCard, Lock, RefreshCw, Shield } from "lucide-react";
+import { TriangleAlert as AlertTriangle, CircleCheck as CheckCircle, CreditCard, Lock, RefreshCw, Shield } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";

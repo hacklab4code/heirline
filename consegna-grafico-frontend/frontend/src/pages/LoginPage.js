@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
-import { Eye, EyeOff, Fingerprint, Lock, Mail, RefreshCw } from "lucide-react";
+import { Eye, EyeOff, FingerprintPattern as Fingerprint, Lock, Mail, RefreshCw } from "lucide-react";
 import { toast } from "sonner";
 
 import { AuthLayout } from "@/components/app/AuthLayout";
